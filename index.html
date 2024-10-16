@@ -1,127 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Affan Publications</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX91JH1J6W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MX91JH1J6W');
-</script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #007BFF;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin: 20px 0;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        .languages {
-            margin-top: 20px;
-        }
-        .languages p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affan Publishers</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    .hero {
+      background: url('https://source.unsplash.com/1600x500/?bookshelf') no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .book-cover {
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
 </head>
-    
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <link rel="icon" type="image/x-icon" href="./fav.png">
-            <a class="navbar-brand" href="#">Affan Publications</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./aboutus.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./books.html">Books</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">PubHouse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Authors</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div>
+    <h1>Explore the World of Books</h1>
+    <p class="lead">Discover stories, ideas, and knowledge that inspire.</p>
+    <a href="#" class="btn btn-primary btn-lg mt-3">Browse Books</a>
+  </div>
+</div>
+
+<!-- Featured Books Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Featured Books</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/300x400/?book" class="book-cover" alt="Book 1">
+        <div class="card-body">
+          <h5 class="card-title">Book Title 1</h5>
+          <p class="card-text">A brief description of the book goes here.</p>
+          <a href="#" class="btn btn-outline-primary">Learn More</a>
         </div>
-    </nav>
-
-    <!-- Main Content (You can add more sections here) -->
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
+      </div>
     </div>
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
-    </div>
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
-    </div>
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
-    </div>
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
-    </div>
-    <div class="container my-5">
-        <h1 class="text-center">Welcome to Affan Publications</h1>
-        <p class="text-center">Your destination for insightful books and quality publications.</p>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p class="mb-1">Contact Us:</p>
-            <p>Phone: +91 12345 67890</p>
-            <p>Email: khurram@affanpublications.com</p>
-            <p>Address: 123, Affan Street, Kolkata, India</p>
-            <p>&copy; 2024 Affan Publications. All rights reserved.</p>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/300x400/?novel" class="book-cover" alt="Book 2">
+        <div class="card-body">
+          <h5 class="card-title">Book Title 2</h5>
+          <p class="card-text">An intriguing summary that captures attention.</p>
+          <a href="#" class="btn btn-outline-primary">Learn More</a>
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/300x400/?literature" class="book-cover" alt="Book 3">
+        <div class="card-body">
+          <h5 class="card-title">Book Title 3</h5>
+          <p class="card-text">Explore the depths of a fascinating narrative.</p>
+          <a href="#" class="btn btn-outline-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- About Us Section -->
+<div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2>About PubHouse</h2>
+      <p>
+        We are a leading publishing house, dedicated to bringing the finest books and stories to readers worldwide.
+        From fiction to non-fiction, we cater to diverse literary tastes.
+      </p>
+      <p>
+        Our mission is to promote the written word and support both established and emerging authors.
+      </p>
+      <a href="./aboutus.html" class="btn btn-primary">Learn More</a>
+    </div>
+    <div class="col-md-6">
+      <img src="https://source.unsplash.com/600x400/?library" class="img-fluid rounded" alt="About Us">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2024 PubHouse. All rights reserved.</p>
+  <p>
+    <a href="#" class="text-white">Privacy Policy</a> | 
+    <a href="#" class="text-white">Terms of Service</a>
+  </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
